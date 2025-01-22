@@ -1,0 +1,1 @@
+const t="---\r\ntitle: 遇到过的axios问题解决方案\r\ndate: 2018-06-27\r\nsummary: 遇到过的axios问题解决方案\r\n---\r\n\r\n# 遇到过的axios问题解决方案\r\n\r\n### 1. 某天对接后端接口时发现，在发起请求时，`POST`方法变成了`GET`方法，而且请求参数也莫名丢失了\r\n\r\n- 解决：修改请求接口协议`http`为`https`（后端请求接口路径由`http`变为了`https`导致）\r\n";export{t as default};
